@@ -39,14 +39,20 @@ body {
 /* Cover Video */
 #cover-vid {
 	width: 100%;
-	height: 100vh;
+	height: calc(80vh);
 	position: absolute;
-	padding-bottom: 60px;
-	background: rgba(0, 0, 0, 0.5);
+	padding-top: 56px;
 }
 
-.cover-vid-bg::after {
-	background: rgba(0, 0, 0, 0.5);
+.cover-vid-bg {
+    width: 100%;
+	height: calc(100vh - 60px);
+	position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+video::-webkit-media-controls-panel {
+	display: none !important;
 }
 
 /* Navbar */
