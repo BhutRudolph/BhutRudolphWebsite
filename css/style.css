@@ -39,9 +39,14 @@ body {
 /* Cover Video */
 #cover-vid {
 	width: 100%;
+<<<<<<< HEAD
 	height: calc(80vh);
 	position: absolute;
 	padding-top: 56px;
+=======
+	height: calc(100vh - 60px);
+	position: absolute;
+>>>>>>> 143ca0d4edd42ce724d1e04cfdc375ca7e0262fb
 }
 
 .cover-vid-bg {
@@ -49,10 +54,13 @@ body {
 	height: calc(100vh - 60px);
 	position: relative;
     background: rgba(0, 0, 0, 0.5);
+<<<<<<< HEAD
 }
 
 video::-webkit-media-controls-panel {
 	display: none !important;
+=======
+>>>>>>> 143ca0d4edd42ce724d1e04cfdc375ca7e0262fb
 }
 
 /* Navbar */
