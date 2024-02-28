@@ -41,7 +41,7 @@ body {
 	width: 100%;
 	height: calc(80vh);
 	position: absolute;
-	padding-top: 56px;
+	padding-top: calc(30vh - 56px);
 }
 
 .cover-vid-bg {
@@ -51,7 +51,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
 }
 
-video::-webkit-media-controls-panel {
+video::-webkit-media-controls {
 	display: none !important;
 }
 
