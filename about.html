@@ -83,7 +83,7 @@
             </div>
         </main>
 
-        <video autoplay muted loop id="cover-vid">
+        <video autoplay="autoplay" muted loop id="cover-vid">
             <source src="assets/images/avatar.mp4" type="video/mp4">
         </video>
         <div class="cover-vid-bg"></div>
@@ -129,6 +129,12 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/fontawesome-all.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            let coverVid= document.getElementById("cover-vid");
+            coverVid.play();
+        }
+    </script>
 </body>
 
 </html>
