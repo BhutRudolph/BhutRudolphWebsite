@@ -39,9 +39,9 @@ body {
 /* Cover Video */
 #cover-vid {
 	width: 100%;
-	height: calc(70vh);
+	height: calc(100vh - 60px);
 	position: absolute;
-	padding-top: calc(20vh - 56px);
+	padding: 22%;
 }
 
 .cover-vid-bg {
